@@ -26,9 +26,4 @@ module "subnets" {
 
   availability_zones              = var.availability_zones
   vpc_id                          = module.vpc.vpc_id
-  type                            = var.type
-  igw_id                          = module.vpc.igw_id
-  cidr_block                      = module.vpc.vpc_cidr_block
-  ipv6_cidr_block                 = module.vpc.ipv6_cidr_block
-  assign_ipv6_address_on_creation = var.assign_ipv6_address_on_creation
-}
+  type    
