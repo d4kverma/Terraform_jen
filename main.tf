@@ -21,6 +21,6 @@ module "subnets" {
   environment = var.envir
   label_order = var.label_order
 
-  single_nat_gateway  = true
+  sinle_nat_gateway  = true
 
   availability
