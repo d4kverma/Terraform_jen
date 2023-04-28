@@ -9,18 +9,8 @@ module "vpc" {
 
   name        = "moneyceo"
   environment = var.environment
-  label_order = var.label_order
-  cidr_block  = var.vpc_cidr_block
-}
+  label_order =
 
-module "subnets" {
-  source  = "clouddrove/subnet/aws"
-  version = "0.15.3"
-
-  name        = "
-  environment = var.envir
-  label_order = var.label_order
-
-  sinle_nat_gateway  = true
+  name    teway  = true
 
   availability
