@@ -24,4 +24,4 @@ module "subnets" {
   nat_gateway_enabled = true
   single_nat_gateway  = true
 
-  availability_zo
+  availability
