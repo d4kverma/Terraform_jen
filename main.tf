@@ -8,9 +8,7 @@ module "vpc" {
   version = "0.15.1"
 
   name        = "moneyceo"
-  environment = var.environment
-  label_order =
-
+  environment = var.envi
   name    teway  = true
 
   availability
