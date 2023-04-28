@@ -17,7 +17,7 @@ module "subnets" {
   source  = "clouddrove/subnet/aws"
   version = "0.15.3"
 
-  name        = "moneyceo"
+  name        = "
   environment = var.environment
   label_order = var.label_order
 
