@@ -24,6 +24,5 @@ module "subnets" {
   nat_gateway_enabled = true
   single_nat_gateway  = true
 
-  availability_zones              = var.availability_zones
-  vpc_id                          = module.vpc.vpc_id
+  availability_zones              = var.availabili
   type    
