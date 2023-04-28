@@ -18,7 +18,7 @@ module "subnets" {
   version = "0.15.3"
 
   name        = "
-  environment = var.environment
+  environment = var.envir
   label_order = var.label_order
 
   single_nat_gateway  = true
